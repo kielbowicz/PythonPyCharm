@@ -1,12 +1,16 @@
 import kivy
 from kivy.app import App
+from kivy.uix.widget import Widget
+
+
+class mainWidget(Widget):
+
+    pass
 
 class myApp(App):
 
-    def __init__(self):
-
-        pass
+    pass
 
 if __name__ == "__main__":
 
-    obj = myApp()
+    obj = myApp().run()
